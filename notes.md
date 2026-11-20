@@ -1,1 +1,2 @@
-# Got notes 
+# Got notes
+numpy and pandas
