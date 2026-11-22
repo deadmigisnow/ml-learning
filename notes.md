@@ -27,10 +27,12 @@ choosing which columns to use to train data, sometimes we dont need all the colu
 data_feature = ['Rooms', 'Bathrooms', 'Landsize']
 x = data_for_model[data_feature]
 ```
-
+```
 X.describe()
 X.head()
 
+```txt
+```
 Libaray 
 scikit-learn libaray to create data_for_model(sklearn)
 This md is mainly about learning about deicision tree model type
@@ -45,7 +47,4 @@ from skllearn.tree import DecisionTreeRegressor
 data_model = DecisionTreeRegressor(random_state=1)
 data_model.fit(X,y)
 ```
-
-
-
-
+```
