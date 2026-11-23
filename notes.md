@@ -52,4 +52,18 @@ to calulcate the mean absolute Error
 using sklearn.metrics import mean_absolute_error
 this is called In-sample scores
 Validation data topic????
-scikit-learn has a function called train_test_spilt t obreak up the data into two pieces.
+scikit-learn has a function called train_test_spilt to break up the data into two pieces.
+sklearn.model_selection import train_test_spilt
+
+# Overfitting and UnderFitting
+
+Overfitting: Capturing spurious patterns that wont recurw in the future, leading to less accurate predictions
+Underfitting: failing  to capture relevant patterns, again leading to less accurate predictions.
+
+# Random Forests
+basic idea builds many Decision trees during training and output the average prediction or the majority vote from all the trees.
+from sklearn.ensemble import RandomForestsRegressor
+```python
+forest_model = RandomForestsRegressor(random_state=1)
+
+```
