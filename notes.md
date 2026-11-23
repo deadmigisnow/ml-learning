@@ -44,3 +44,12 @@ from skllearn.tree import DecisionTreeRegressor
 
 data_model = DecisionTreeRegressor(random_state=1)
 data_model.fit(X,y)
+
+## Model Validation 
+Measuring the performance of the model
+Mean ABsolute Error also called as MAE
+to calulcate the mean absolute Error
+using sklearn.metrics import mean_absolute_error
+this is called In-sample scores
+Validation data topic????
+scikit-learn has a function called train_test_spilt t obreak up the data into two pieces.
