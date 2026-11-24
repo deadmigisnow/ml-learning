@@ -6,7 +6,7 @@
 
 **Feature:** Feature is an measurable property such a cloumns in a csv file, but we only select few or needed features from the file instead of every feature, which is also an input for model to help make predictions.
 
-**Decision Tree:** DecisionTree is an supervised lerning algorithm that is in a tree like structure, like a root has two branches, then those branches get divided into more branches and so on and on.
+**Decision Tree:** DecisionTree is an supervised lerning algorithm that is in a tree like structure, the root has branches, with their own possible outcomes for each different branch, its helps to make decisions like YES or NO. 
 ```
 
 
@@ -71,3 +71,6 @@ Dataframe has three main components: the data, which are stored in rows and colu
 
 **Series:** One-dimensional array object that can hold data of any type such as int,float,string,etc.
 labeled each element has a unique identity called index.
+
+# X.head()
+The `.head()` method is a built-in pandas function that returns the first five rows of a dataframe or series by default. It is used to quickly inspect the structure and initial values of data without printing the entire, potentially massive, dataset to the console.
